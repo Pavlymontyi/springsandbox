@@ -1,4 +1,4 @@
-package com.kraynov.springsandbox.service;
+package com.kraynov.springsandbox.swift.input;
 
 public enum TransferCreationStep {
 

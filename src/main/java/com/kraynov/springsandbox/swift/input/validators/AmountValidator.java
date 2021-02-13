@@ -1,11 +1,11 @@
-package com.kraynov.springsandbox.service.validators;
+package com.kraynov.springsandbox.swift.input.validators;
 
-import com.kraynov.springsandbox.service.TransferCreationStep;
+import com.kraynov.springsandbox.swift.input.TransferCreationStep;
 import org.springframework.stereotype.Component;
 
 @Component
 @StepValidator(step = TransferCreationStep.STEP_2)
-public class AmountValidator implements Validator{
+public class AmountValidator implements Validator {
 
     @Override
     public boolean validate(String value) {

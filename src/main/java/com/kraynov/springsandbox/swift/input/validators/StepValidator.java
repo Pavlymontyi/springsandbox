@@ -1,6 +1,6 @@
-package com.kraynov.springsandbox.service.validators;
+package com.kraynov.springsandbox.swift.input.validators;
 
-import com.kraynov.springsandbox.service.TransferCreationStep;
+import com.kraynov.springsandbox.swift.input.TransferCreationStep;
 import org.springframework.beans.factory.annotation.Qualifier;
 
 import java.lang.annotation.ElementType;

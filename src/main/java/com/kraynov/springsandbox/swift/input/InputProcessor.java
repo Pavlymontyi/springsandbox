@@ -1,7 +1,7 @@
-package com.kraynov.springsandbox.service;
+package com.kraynov.springsandbox.swift.input;
 
-import com.kraynov.springsandbox.service.validators.StepValidator;
-import com.kraynov.springsandbox.service.validators.Validator;
+import com.kraynov.springsandbox.swift.input.validators.StepValidator;
+import com.kraynov.springsandbox.swift.input.validators.Validator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
