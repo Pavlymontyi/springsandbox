@@ -5,9 +5,9 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-@com.kraynov.springsandbox.swift.input.validators.StepValidator(step = TransferCreationStep.STEP_2)
 @Component
 @Scope("prototype")
+@StepValidator(step = TransferCreationStep.STEP_2)
 public class FromResourceValidator implements com.kraynov.springsandbox.swift.input.validators.Validator {
 
     @Value("someValue")
